@@ -2,7 +2,7 @@
 Package that handles subscribing, deleting, and firing REST Hooks.
 
 ## How to use
-```
+```bash
 composer require se468/laravel-rest-hooks
 php artisan migrate
 ```
@@ -10,7 +10,7 @@ php artisan migrate
 ## Usage
 
 ### Subscribe a webhook endpoint
-```
+```bash
 POST /api/hooks
 ```
 
@@ -27,14 +27,14 @@ data:
 Will create a new RestHook and store it. 
 
 ### Delete a webhook endpoint
-```
+```bash
 DELETE /api/hooks/{id}
 ```
 
 Will delete RestHook with that id.
 
 ### Firing RestHook with Data
-```
+```php
 $data = [
     'foo' => 'bar' 
 ];
