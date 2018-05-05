@@ -1,12 +1,12 @@
 {
     "name": "se468/laravel-rest-hooks",
-    "description": "Starting point for Laravel package development.",
+    "description": "Package that handles subscribing, deleting, and firing REST Hooks.",
     "keywords": ["laravel", "package"],
     "license": "MIT",
     "authors": [
         {
-            "name": "",
-            "email": ""
+            "name": "Seyong Cho",
+            "email": "seyong@seyongcho.com"
         }
     ],
     "require": {
